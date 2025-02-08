@@ -19,3 +19,10 @@ server_scripts {
     'bridge/**/server.lua',
     'modules/**/server.lua',
 }
+
+dependencies {
+    'ox_lib',
+    'ox_target',
+    'snappy-phone',
+    'cad-pedspawner'
+}
