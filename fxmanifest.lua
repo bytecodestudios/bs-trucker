@@ -7,7 +7,7 @@ description "Trucker Job for Snappy Phone Party System"
 
 shared_scripts {
     '@ox_lib/init.lua',
-    'shared/config_*.lua',
+    'shared/*.lua',
 }
 
 client_scripts {
