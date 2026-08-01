@@ -1,4 +1,4 @@
-local pgroup = exports['snappy-phone']
+local pgroup = GetResourceState('cad-groupsystem') ~= 'missing' and exports['cad-groupsystem'] or exports['snappy-phone']
 
 local rentedVehicles = {}
 local partyTasks = {}

@@ -4,6 +4,7 @@ lua54 'yes'
 
 author "Cadburry (Bytecode Studios)"
 description "Trucker Job for Snappy Phone Party System"
+version "1.0"
 
 shared_scripts {
     '@ox_lib/init.lua',
